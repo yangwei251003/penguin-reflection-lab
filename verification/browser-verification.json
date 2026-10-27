@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "modes": [
+    {
+      "width": 1440,
+      "mobileTouch": false,
+      "routes": [
+        "how.html",
+        "freud.html",
+        "paths.html",
+        "index.html"
+      ],
+      "syntheticPrefill": true,
+      "localResultAndClear": true,
+      "chipRuleResult": true,
+      "apiRequests": [],
+      "externalRequests": [],
+      "scriptErrors": [],
+      "failedResources": [],
+      "gpsAttempts": 0,
+      "localStorageWrites": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mobileTouch": true,
+      "routes": [
+        "how.html",
+        "freud.html",
+        "paths.html",
+        "index.html"
+      ],
+      "syntheticPrefill": true,
+      "localResultAndClear": true,
+      "chipRuleResult": true,
+      "apiRequests": [],
+      "externalRequests": [],
+      "scriptErrors": [],
+      "failedResources": [],
+      "gpsAttempts": 0,
+      "localStorageWrites": 0,
+      "overflow": false
+    }
+  ],
+  "realProviderTested": false,
+  "currentSignals": {
+    "width": 390,
+    "mobileTouch": true,
+    "routes": [
+      "how.html",
+      "freud.html",
+      "paths.html",
+      "index.html"
+    ],
+    "syntheticPrefill": true,
+    "localResultAndClear": true,
+    "chipRuleResult": true,
+    "apiRequests": [],
+    "externalRequests": [],
+    "scriptErrors": [],
+    "failedResources": [],
+    "gpsAttempts": 0,
+    "localStorageWrites": 0,
+    "overflow": false
+  },
+  "directFileRun": {
+    "passed": true,
+    "externalRequests": 0,
+    "scriptErrors": 0
+  },
+  "mockedDomSafety": {
+    "consentRequired": true,
+    "htmlRenderedAsText": true,
+    "realProviderUsed": false
+  },
+  "licensesActuallyDistributed": true
+}

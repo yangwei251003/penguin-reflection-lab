@@ -1,0 +1,11 @@
+import {mkdir,copyFile,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+const root=resolve(import.meta.dirname,'..'),out=join(root,'_site');
+await mkdir(join(out,'assets'),{recursive:true});await mkdir(join(out,'licenses'),{recursive:true});
+for(const file of ['index.html','how.html','freud.html','paths.html','styles.css','app.js'])await copyFile(join(root,file),join(out,file));
+for(const file of ['penguin-professor.svg','penguin-pattern.svg'])await copyFile(join(root,'assets',file),join(out,'assets',file));
+await writeFile(join(out,'runtime-config.js'),'window.PENGUIN_RUNTIME = Object.freeze({ cloudEnabled: false });\n');
+await copyFile(join(root,'LICENSE'),join(out,'licenses/PROJECT_MIT.txt'));
+await copyFile(join(root,'THIRD_PARTY_NOTICES.md'),join(out,'licenses/THIRD_PARTY_NOTICES.md'));
+await writeFile(join(out,'.nojekyll'),'');
+console.log('Built four static offline pages; no API, environment files or original unknown illustrations copied.');

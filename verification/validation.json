@@ -1,0 +1,18 @@
+{
+  "checked": "2026-10-27",
+  "originalCoreFiles": 7,
+  "originalHtmlPages": 4,
+  "status": "PASS for offline synthetic frontend only",
+  "npmThirdPartyPackages": 0,
+  "nodeUnitTestsPassed": 6,
+  "realModelOrCloudDeploymentTested": false,
+  "originalEnvironmentRead": false,
+  "defaultApiCalls": 0,
+  "defaultExternalRequests": 0,
+  "defaultGpsAttempts": 0,
+  "rootAndSubpathStaticRun": true,
+  "directFileRun": true,
+  "unknownOriginalIllustrationsPubliclyBundled": 0,
+  "newProgrammaticSvgs": 2,
+  "originalDeletionReady": false
+}
